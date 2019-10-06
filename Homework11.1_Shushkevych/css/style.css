@@ -128,6 +128,7 @@ textarea:hover {
     border: 2px solid white;
 }
 .contact__footer {
+    margin-top: -16px;
     width: 100%;
     height: 90px;
     background-color: #262626;
@@ -139,7 +140,15 @@ textarea:hover {
 }
 .contact__footer p {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 6px;
+    letter-spacing: 0.04em;
+    color: #b9b9b9;
+    font-weight: 300;
+    padding-top: 40px;
+}
+.contact__footer p:last-child {
+    font-size: 15px;
+    line-height: 6px;
     color: #b9b9b9;
     font-weight: 300;
     padding-top: 40px;
@@ -148,8 +157,8 @@ p span {
     color: red;
 }
 .contact__footer img {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 33px;
+    margin-left: -52px;
 }
 .contact__footer img:hover {
     transform: scale(1.1)
